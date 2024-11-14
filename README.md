@@ -65,7 +65,7 @@ What's really important :
 
 ### Memory Monitoring with grep and awk
 
-`ps aux | grep "firefox" | awk '{sum += $4} END {print "Total Memory Usage by Apache:", sum, "%"}'`
+`ps aux | grep "firefox" | awk '{sum += $4} END {print "Total Memory Usage by firefox:", sum, "%"}'`
 
 Explanation:
 
