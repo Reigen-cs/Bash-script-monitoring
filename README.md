@@ -103,8 +103,8 @@ When we replace /dev/sda2 with \1, it effectively outputs just sda2.
 
 `ifconfig enp0s3 | grep "RX packets" | awk '{print "Received Packets:", $3}'`
 
-Explanation:
-`ifconfig eth0` Displays network configuration for the eth0 interface.  
+Explanation:  
+`ifconfig enp0s3` Displays network configuration for the enp0s3 interface.  
 `grep "RX packets"` Filters to show only the line with received packets.  
 `awk '{print "Received Packets:", $3}'` Extracts and labels the packet count from the line.  
 
