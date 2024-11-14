@@ -36,7 +36,7 @@ Basic Syntax: grep [pattern] [filename]
 ### Processes CPU Monitoring : 
 
 `ps aux`  
-`ps aux | grep -v "grep" | grep "firefox" |`  
+`ps aux | grep -v "grep" | grep "firefox"`  
 `ps aux | grep -v "grep" | grep "firefox" | awk '{print $1, $2, $3, $11}'`  
 
  Explanation:
